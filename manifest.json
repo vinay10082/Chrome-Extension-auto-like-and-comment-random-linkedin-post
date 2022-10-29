@@ -1,0 +1,25 @@
+{
+    "name": "Task 3",
+    "description": "Extension to like and comment the linkedin post",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service workers": ["popup.js"]
+    },
+    "permissions":[
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action":{
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "/images/icon_16.png",
+        "32": "/images/icon_32.png",
+        "48": "/images/icon_48.png",
+        "128": "/images/icon_128.png"
+    }
+}
