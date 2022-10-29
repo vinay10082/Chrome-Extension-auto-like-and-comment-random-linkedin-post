@@ -4,7 +4,6 @@ btn.addEventListener('click', function() {
     var like_count = document.querySelector('#like-count').value;
     var comment_count = document.querySelector('#comment-count').value;
 
-
     chrome.tabs.query({ active:true, currentWindow: true},(tabs) =>{
         chrome.scripting.executeScript({
             target: {tabId: tabs[0].id},
