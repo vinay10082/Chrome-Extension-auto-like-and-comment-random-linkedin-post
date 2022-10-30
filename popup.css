@@ -13,8 +13,12 @@ body {
     padding:20px;
 }
 .btn{
-    background-color: rgb(65, 65, 227);
+    background-color: rgb(213, 213, 238);
     border:none;
     cursor: pointer;
+    color:rgb(79, 77, 77);
+}
+.btn:hover{
+    background-color: rgb(65, 65, 227);
     color:white;
 }
